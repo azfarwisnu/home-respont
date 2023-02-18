@@ -8,7 +8,7 @@ class ComponentDashboard extends React.Component {
         <div className="container">
           <ComponentHeader />
           <div className="section-one pb-5">
-            <div className="row">
+            <div className="row pb-4 mb-4">
               <div className="col-12 col-md-6 pb-4 mb-4">
                 <h2>
                   <b>LOREM IPSUM SIT DOLOR AMET</b>
@@ -36,8 +36,11 @@ class ComponentDashboard extends React.Component {
                 </div>
               </div>
             </div>
+            <div className="pt-5 mt-5 text-center">
+            <a href="#solutions"><i className="bi bi-arrow-down-circle text-yellow h3"></i></a>
+            </div>
           </div>
-          <div className="section-two pb-5">
+          <div className="section-two pb-5" id="solutions">
             <h2>
               <b>THE SOLUTIONS</b>
             </h2>
@@ -84,7 +87,7 @@ class ComponentDashboard extends React.Component {
           </div>
           <div className="section-three pb-5">
             <div className="col-12 border box-yellow shadow">
-              <div className="col-12 mx-4 pt-4 mt-4 pb-4">
+              <div className="col-12 mx-4 pt-5 mt-5 pb-4 mb-4">
                 <div className="row">
                   <div className="col-11 col-md-6 text-justify left">
                     <div className="mx-2">

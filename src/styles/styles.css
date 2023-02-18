@@ -9,6 +9,7 @@ body {
   background: #17181f;
   color: #fff;
   font-family: "Poppins", sans-serif;
+  background: linear-gradient(105deg, rgba(152,146,121,1) 0%, rgba(23,24,31,1) 25%);
 }
 
 h2 {
@@ -67,4 +68,12 @@ h2 {
 
 .section-three .right img {
     width: 90%;
+}
+
+.section-one  {
+    min-height: 100vh;
+}
+
+.text-yellow {
+    color: #fcf4d2;
 }

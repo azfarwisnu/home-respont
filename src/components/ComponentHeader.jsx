@@ -7,9 +7,15 @@ class ComponentHeader extends React.Component {
   render() {
     return (
       <>
-        <Navbar collapseOnSelect expand="lg" bg="" variant="dark" className="pb-5 mb-4">
+        <Navbar
+          collapseOnSelect
+          expand="lg"
+          bg=""
+          variant="dark"
+          className="pb-5 mb-4"
+        >
           <div className="container-fluid">
-            <Navbar.Brand href="#home" className="mt-2">
+            <Navbar.Brand href="/" className="mt-2">
               <img src={icon} alt="logo" className="img-logo" />
               <b>RESPONT</b>
             </Navbar.Brand>
@@ -22,8 +28,7 @@ class ComponentHeader extends React.Component {
                   About us
                 </Nav.Link>
                 <Nav.Link href="https://respont-app.netlify.app/">
-                    <button className="btn-set btn">Try it out
-                    </button>
+                  <button className="btn-set btn">Try it out</button>
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
