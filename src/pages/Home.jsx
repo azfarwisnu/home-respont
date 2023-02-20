@@ -7,6 +7,11 @@ import SkaleLogo from "../assets/skale.svg";
 import SolidityLogo from "../assets/solidity.png";
 
 class Home extends React.Component {
+
+  componentDidMount(){
+    document.title = "Respont | Secure messaging, decentralized future.";
+  }
+
   render() {
     return (
       <div className="container">
