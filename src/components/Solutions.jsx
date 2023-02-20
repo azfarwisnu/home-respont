@@ -102,7 +102,14 @@ class Solutions extends React.Component {
                 SMART<span className="text-warning">.</span>
               </h4>
               <p className="describe mb-4">
-                This exciting feature is coming soon! Wait for more details.
+                Get ready to experience the future of messaging with our
+                upcoming Smart Message feature. Our team has been hard at work
+                on this revolutionary new feature, and we can't wait to unveil
+                it to our users. With Smart Message, you'll be able to take your
+                conversations to the next level with advanced, cutting-edge
+                technology that will change the way you communicate. Stay tuned
+                for more information and be the first to try out this
+                game-changing new feature!
               </p>
               <a
                 href="https://respont-app.netlify.app/"
