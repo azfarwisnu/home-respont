@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+
+input,
+input:focus,
+input:hover,
+button,
+button:hover,
+button:active,
+button:focus,
+textarea:focus,
+textarea:hover,
+textarea {
+  box-shadow: none !important;
+  outline: none !important;
+  resize: none !important;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #17181f;
+}
+
+body {
+  background: #17181f;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  background-image: url("../bg-home.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.text-warning {
+  color: #fccb06;
+}
+
+.cursor-no-drop {
+  cursor: no-drop;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.respont {
+  font-weight: bold;
+  color: #fccb06;
+}
+
+.title {
+  font-family: PoppinsBold;
+}
+
+.img-logo {
+  width: 40px;
+  padding-right: 2px;
+}
+
+.btn-header {
+  background-color: transparent;
+  border: 2px solid #fccb06;
+  color: #fccb06;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 5px;
+  transition: 0.5s;
+}
+
+.btn-header:hover,
+.btn-header:active {
+  background-color: #fccb06;
+  color: #17181f;
+}
+
+.box-yellow {
+  background-color: #fccb06;
+  min-height: 200px;
+  border-radius: 15px;
+  color: #17181f;
+}
+
+.section-three .right img {
+  width: 90%;
+}
+
+.section-one {
+  height: 100vh;
+}
+
+.section-one .intro {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17%;
+}
+
+.section-one .intro a,
+.section-one .intro a:hover,
+.section-one .intro a:active {
+  padding: 15px 30px;
+  background: #fccb06;
+  font-weight: bold;
+  color: #17181f;
+}
+
+.section-one .intro p,
+.section-two .title-describe,
+.section-two .solution .describe {
+  color: #c4c4c4;
+  font-weight: bold;
+}
+
+.section-two {
+  margin-top: -17%;
+}
+
+.section-two .row .col-lg-5 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  align-self: start;
+}
+
+.section-two .solution {
+  width: 100%;
+  border: 1px solid #17181f;
+  padding: 80px 40px;
+  transition: 0.5s;
+  border: 1px solid rgb(50, 50, 50);
+  cursor: default;
+}
+
+.section-two .solution:hover {
+  border: 1px solid #fff;
+}
+
+.section-two .solution a, .section-two .solution button{
+  border-radius: 7px;
+  border: 2px solid #fccb06;
+  background-color: transparent;
+  transition: 0.5s;
+  color: #fccb06;
+  padding: 10px 30px;
+}
+
+.section-two .solution a:hover, .section-two .solution button:hover{
+  background-color: #fccb06;
+  color: #000;
+}
+
+.section-three .rounded {
+  padding: 80px 40px 80px 40px;
+  margin-bottom: 40px;
+  background-color: #17181f;
+  background-image: url(../left-wave.svg);
+  background-repeat: no-repeat;
+}
+
+.section-three .rounded div {
+  margin-top: 30px;
+}
+
+.section-three .rounded div div {
+  width: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 7px;
+  width: fit-content;
+  display: inline-block;
+  margin: 5px;
+}
+
+.section-three .rounded div div img {
+  width: 100px;
+  height: auto;
+}
+
+.footer {
+  margin-top: 80px;
+  padding: 30px 0 30px 0;
+  background-color: #000;
+}
+
+.footer .respont-logo .respont {
+  font-size: 40px;
+}
+
+.footer .socials {
+  margin-top: 20px;
+}
+
+.footer .socials p {
+  color: #c4c4c4;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer .socials a {
+  color: #fff;
+  display: block;
+  margin: 10px 0 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer .socials a i {
+  margin-right: 5px;
+}
+
+.footer .subscribe p{
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #c4c4c4;
+}
+
+.footer .subscribe div{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.footer .subscribe div input{
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+  height: 50px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.footer .subscribe div button{
+  font-weight: bold;
+  background-color: #fdcc08;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  height: 50px;
+}
+
+.footer .copyright {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-two .row .col-lg-5 {
+    position: static;
+  }
+
+  .footer .socials,
+  .footer .respont-logo {
+    text-align: center;
+  }
+}
